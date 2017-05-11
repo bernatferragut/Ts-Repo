@@ -10,7 +10,20 @@ let havingMoney: boolean = true;
 let myMoney = undefined; // value working with variables
 //5.null
 let myCat = null; // object working with objects
+// ============================================
+// ANY type
+let myVar: any;
+// ============================================
+// Arrays
+let array1: number[] = [1, 2, 3, 4, 5]; // first way
+let array2: Array<number> = [1, 2, 3, 4, 5]; // second way with type > Array
+let array3: string[] = ['a', 'b', 'c', 'd', 'e'];
+let array4: any = new Array(); // create an array of any type
+// ============================================
+// Functions
 
 
- 
+
+
+
 
