@@ -21,3 +21,12 @@ var array3 = ['a', 'b', 'c', 'd', 'e'];
 var array4 = new Array(); // create an array of any type
 // ============================================
 // Functions
+function absoluteValue(x) {
+    var y;
+    if (x < 0 || x >= 0) {
+        this.y = Math.abs(x);
+    }
+    return y;
+}
+console.log(absoluteValue(5));
+// ============================================

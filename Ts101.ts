@@ -21,7 +21,26 @@ let array3: string[] = ['a', 'b', 'c', 'd', 'e'];
 let array4: any = new Array(); // create an array of any type
 // ============================================
 // Functions
+function absoluteValue(x: number): number{
+    let y;
+    if( x < 0 || x >= 0){
+        this.y= Math.abs(x);
+    }
+    return y;
+}
 
+console.log(absoluteValue(5));
+// ============================================
+// Interfaces
+// We can have { properties, methods, events }
+// We do not have implementation
+// do not exist in javascript
+
+interface IUser {
+    username: string;
+    password: string;
+}
+// ============================================
 
 
 
